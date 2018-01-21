@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" <meta charset="UTF-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Project</title>
+  <link rel="stylesheet" type="text/css" href="assets/camp.css">
+</head>
+
+<body>
+  <header>
+    <ul>
+      <li><a href="index.html">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </header>
+  <h1 id="blog_header">Dharshan's Project</h1>
+  <div class="cards" id="first">
+    <p class="image_text">Porterz
+      <span class="link">
+        <a href="#">link</a>
+      </span>
+      <br />
+      <small>A location Based, Hyper local, on demand delivery service for small and medium scale industry. Porterz takes delivery
+        service into a whole new level by providing on demand service by nearest service person available in real time.</small>
+    </p>
+  </div>
+
+  <div class="cards" id="second">
+    <p class="image_text">MyVeg
+      <span class="link">
+        <a href="#">link</a>
+      </span>
+      <br />
+      <small>MyVeg is a unique platform where farmers can directly connect with the vegitable dealers or vendors. Provides real
+        time auction and bidding of various vegitables, harvest request based on supply demand etc</small>
+    </p>
+  </div>
+
+  <div class="cards" id="third">
+    <p class="image_text">geogenie
+      <span class="link">
+        <a href="#">link</a>
+      </span>
+      <br />
+      <small>Location Based social networking platform where users are connected based on their current location. Platform provides
+        real time help, service request, chat, connecting based on user's location.</small>
+    </p>
+  </div>
+
+  <script>
+    $('div').on('click', function () {
+      $(this).toggleClass('show-description');
+    });
+  </script>
+</body>
+
+</html>

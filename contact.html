@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dharshan</title>
+  <link rel="stylesheet" type="text/css" href="assets/camp.css">
+</head>
+
+<body>
+  <header>
+    <ul>
+      <li>
+        <a href="index.html">About</a>
+      </li>
+      <li>
+        <a href="blog.html">Projects</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+  </header>
+  <div class="image">
+    <img src="assets/dharshan.jpeg" alt="dharshan">
+  </div>
+  <div class="sform">
+    <input type="email" placeholder="Your email">
+    <input type="submit" id="sbmt">
+  </div>
+  <script>
+    $('#sbmt').on('click', function () {
+      alert('Request Sent');
+    });
+  </script>
+</body>
+
+</html>
